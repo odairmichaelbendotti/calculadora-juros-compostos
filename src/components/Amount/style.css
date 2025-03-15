@@ -1,0 +1,17 @@
+.card-amount {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 12px 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.card-amount p:nth-child(1) {
+    font-size: 12px;
+}
+
+.card-amount p:last-child {
+    font-weight: bold;
+    font-size: 17px;
+}
